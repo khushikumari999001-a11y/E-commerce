@@ -1,0 +1,120 @@
+.nav {
+  width: 100%;
+  padding: 15px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(38, 45, 51);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.574);
+}
+.nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+.nav .logo {
+  /* width: 200px; */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav .logo {
+  cursor: pointer;
+}
+
+.nav .logo .logo_name {
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  font-weight: 600;
+}
+.nav .logo .logo_icon {
+  color: white;
+  font-size: 30px;
+}
+
+.nav .search_box {
+  width: 607px;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.nav .search_box input {
+  width: 607px;
+  font-size: 18px;
+  font-weight: 500;
+  /* position: absolute; */
+  padding: 10px 45px 10px 15px;
+ 
+  color: rgb(44, 44, 44);
+  border: 0px;
+  outline: none;
+}
+
+.nav .search_box .search_icon {
+  position: absolute;
+right: 15px;
+  color: rgb(44, 44, 44);
+    top: 11px;
+  /* border: none; */
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+  font-weight: 600;
+}
+
+.nav .nav_item_cart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+}
+
+.nav .nav_item_cart .nav_item {
+  /* width: 450px; */
+}
+
+.nav .nav_item_cart .nav_item ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav .nav_item_cart .nav_item ul li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+.nav .nav_item_cart .nav_item ul li:last-of-type {
+  margin-right: 0;
+}
+
+.nav .nav_item_cart .nav_item ul li a {
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.nav .nav_item_cart .cart_box {
+  width: 50px;
+  position: relative;
+}
+
+.nav .nav_item_cart .cart_box .cart_icon {
+  font-size: 30px;
+  color: white;
+  /* position: absolute; */
+}
+
+.nav .nav_item_cart .cart_box span {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  position: absolute;
+     top: -8px;
+    left: 28px;
+}
+
+.nav .nav_item_cart .cart_box {
+  cursor: pointer;
+}
